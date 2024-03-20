@@ -1,0 +1,185 @@
+/* WP Google Search CSS File 1 */
+/*turn off table borders and other table settings*/
+#content .wgs_wrapper table, #widget .wgs_wrapper table, .wgs_wrapper table {
+	border: none;
+	margin: auto;
+	width: 100%;
+	border-collapse: initial;
+}
+
+#content .wgs_wrapper tr td, #widget .wgs_wrapper tr td, .wgs_wrapper tr td {
+	border: none;
+	padding: 0;
+}
+
+.wgs_wrapper body, .wgs_wrapper input, .wgs_wrapper textarea {
+	line-height: initial;
+}
+
+/*switch off word wrap (because some elements are wrong without it)*/
+.wgs_wrapper html, .wgs_wrapper body, .wgs_wrapper div, .wgs_wrapper span, .wgs_wrapper applet, .wgs_wrapper object, .wgs_wrapper iframe, .wgs_wrapper h1, .wgs_wrapper h2, .wgs_wrapper h3, .wgs_wrapper h4, .wgs_wrapper h5, .wgs_wrapper h6, .wgs_wrapper p, .wgs_wrapper blockquote, .wgs_wrapper pre, .wgs_wrapper a, .wgs_wrapper abbr, .wgs_wrapper acronym, .wgs_wrapper address, .wgs_wrapper big, .wgs_wrapper cite, .wgs_wrapper code, .wgs_wrapper del, .wgs_wrapper dfn, .wgs_wrapper em, .wgs_wrapper font, .wgs_wrapper ins, .wgs_wrapper kbd, .wgs_wrapper q, .wgs_wrapper s, .wgs_wrapper samp, .wgs_wrapper small, .wgs_wrapper strike, .wgs_wrapper strong, .wgs_wrapper sub, .wgs_wrapper sup, .wgs_wrapper tt, .wgs_wrapper var, .wgs_wrapper dl, .wgs_wrapper dt, .wgs_wrapper dd, .wgs_wrapper ol, .wgs_wrapper ul, .wgs_wrapper li, .wgs_wrapper fieldset, .wgs_wrapper form, .wgs_wrapper label, .wgs_wrapper legend, .wgs_wrapper table, .wgs_wrapper caption, .wgs_wrapper tbody, .wgs_wrapper tfoot, .wgs_wrapper thead, .wgs_wrapper tr, .wgs_wrapper th, .wgs_wrapper td {
+	word-wrap: normal;
+}
+
+/*space below the searh frame*/
+#wgs_wrapper_id {
+	margin-bottom: 10px;
+}
+
+/*turn off shadow of search field*/
+.gsc-input {
+	margin-left: 3px !important;
+    box-shadow: inherit !important;
+}
+
+/*minimize space between search filed and search button*/
+.gsc-search-box-tools .gsc-search-box .gsc-input {
+padding-right: 0;
+}
+
+/*reduce search button width (from 27px to 10px)*/
+.gsc-search-button input.gsc-search-button-v2, input.gsc-search-button-v2 {
+padding: 6px 10px;
+}
+
+/*switch off background and border of search box in support overlay mode*/
+.gsc-control-cse { 
+	background-color: transparent !important;
+	border: none !important;
+	padding: 0px !important;
+}
+
+
+/* WP Google Search CSS File 2 */
+.wgs_wrapper .gsc-input-box {
+    background-color: transparent !important;
+    border:none;
+}
+
+
+
+/* reset the default td and th padding and margins */
+.wgs_wrapper td, .wgs_wrapper th {
+	padding: 0;
+	margin 0;
+} 
+/* set again padding of search field, because it is reseted by the above setting */
+/* .wgs_wrapper td.gsib_a {
+    padding: 12px 6px 12px;
+} */
+
+.wgs_wrapper .cse .gsc-search-button input.gsc-search-button-v2, input.gsc-search-button-v2 {
+    width: initial;
+    height: initial;
+}
+
+.wgs_wrapper .gsc-input-box .gsib_a input {
+	height: 16px !important;
+	font-family: sans-serif;
+	color: #ffffff !important;
+} 
+
+.wgs_wrapper .gsc-input-box td {
+    border: none;
+}
+
+.wgs_wrapper *, .wgs_wrapper :after, .wgs_wrapper :before {
+	box-sizing: initial !important;
+}
+
+/*turn off table borders and other table settings*/
+#content .wgs_wrapper table, #widget .wgs_wrapper table, .wgs_wrapper table {
+	border: none;
+	/*margin: auto;*/
+	/*width: 100%;*/
+	border-collapse: initial;
+}
+
+#content .wgs_wrapper tr td, #widget .wgs_wrapper tr td, .wgs_wrapper tr td {
+	border: none;
+	/*padding: 0;*/
+}
+
+.wgs_wrapper body, .wgs_wrapper input, .wgs_wrapper textarea {
+	line-height: initial;
+}
+
+/*switch off word wrap (because some elements are wrong without it)*/
+.wgs_wrapper html, .wgs_wrapper body, .wgs_wrapper div, .wgs_wrapper span, .wgs_wrapper applet, .wgs_wrapper object, .wgs_wrapper iframe, .wgs_wrapper h1, .wgs_wrapper h2, .wgs_wrapper h3, .wgs_wrapper h4, .wgs_wrapper h5, .wgs_wrapper h6, .wgs_wrapper p, .wgs_wrapper blockquote, .wgs_wrapper pre, .wgs_wrapper a, .wgs_wrapper abbr, .wgs_wrapper acronym, .wgs_wrapper address, .wgs_wrapper big, .wgs_wrapper cite, .wgs_wrapper code, .wgs_wrapper del, .wgs_wrapper dfn, .wgs_wrapper em, .wgs_wrapper font, .wgs_wrapper ins, .wgs_wrapper kbd, .wgs_wrapper q, .wgs_wrapper s, .wgs_wrapper samp, .wgs_wrapper small, .wgs_wrapper strike, .wgs_wrapper strong, .wgs_wrapper sub, .wgs_wrapper sup, .wgs_wrapper tt, .wgs_wrapper var, .wgs_wrapper dl, .wgs_wrapper dt, .wgs_wrapper dd, .wgs_wrapper ol, .wgs_wrapper ul, .wgs_wrapper li, .wgs_wrapper fieldset, .wgs_wrapper form, .wgs_wrapper label, .wgs_wrapper legend, .wgs_wrapper table, .wgs_wrapper caption, .wgs_wrapper tbody, .wgs_wrapper tfoot, .wgs_wrapper thead, .wgs_wrapper tr, .wgs_wrapper th, .wgs_wrapper td {
+	word-wrap: normal;
+}
+
+/*turn off shadow of search field*/
+.wgs_wrapper .gsc-input {
+    box-shadow: inherit !important;
+}
+
+/*switch off background and border of search box in support overlay mode*/
+.wgs_wrapper .gsc-control-cse { 
+	background-color: transparent !important;
+	border: none !important;
+}
+
+
+/* WP Google Search CSS File 3 */
+/* move down search button to be on the same height than search field */
+.wgs_wrapper .gsc-search-button input {
+    margin-top: 4px !important;
+}
+
+/* move down X button in search field */
+.gscb_a {
+	padding-top: 4px;
+}
+
+
+/* Custom CSS */
+.gcsc-more-maybe-branding-root, .gsc-above-wrapper-area {
+    display: none;
+}
+.gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+    border-color: #0056a7;
+    background-color: #0056a7;
+    color: #ffffff;
+    padding: 5px 20px;
+}
+.gsc-results .gsc-cursor-box .gsc-cursor-page {
+    border-color: #FFFFFF;
+    background-color: #1c6bb6;
+    color: #FFFFFF;
+    padding: 5px 20px !important;
+}
+.gsc-search-button-v2, .gsc-search-button-v2:focus {
+    padding: 0px 1000000px;
+    background: #82b735;
+}
+
+/* .gsc-search-button-v2:hover {padding:6px 27px !important;}
+ */
+.gsc-search-button-v2 svg {
+    fill: #fff;
+    width: 20px !important;
+	height: 20px !important; }
+
+button.gsc-search-button.gsc-search-button-v2 {
+    padding: 0px 15px;
+}
+
+table.gsc-search-box {
+    background: transparent;
+    border: 1px solid #516991 !important;
+    border-radius: 10px;
+}
+.gsc-search-button-v2, .gsc-search-button-v2:hover, .gsc-search-button-v2:focus {
+    border: none !important;
+	background: transparent !important;
+}
+
+.gsc-input-box {
+	background: transparent !important;
+}
+/* table.gsc-search-box td {
+    padding: 5px;
+} */
+
+
