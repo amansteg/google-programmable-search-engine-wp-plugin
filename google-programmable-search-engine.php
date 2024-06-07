@@ -3,7 +3,7 @@
 Plugin Name: Google Programmable Search Engine
 Description: This plugin gives a very simple way to add Google Search to your WordPress site.  
 Version: 1.0.1
-Author: Aman Joshi
+Author: Stegback
 Text Domain: google-search-plugin-aman
 */
 
